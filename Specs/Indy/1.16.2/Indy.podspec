@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   spec.dependency   'libsodium'
   spec.dependency   'libzmq', '4.2.3'
-  spec.dependency   'OpenSSL-Universal', '~> 1.0.2'
+  spec.dependency   'OpenSSL-Universal', '1.1.1900'
   spec.dependency   'libindy', '1.16.0'
 end
