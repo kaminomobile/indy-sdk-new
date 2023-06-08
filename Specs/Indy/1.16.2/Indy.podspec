@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
     'wrappers/ios/libindy-pod/Indy/Utils/IndyLogger.h'
   ]
   spec.libraries = 'sqlite3'
-  spec.platform = :ios, '10.0'
+  spec.platform = :ios, '15.0'
   spec.static_framework = true
   spec.dependency   'libsodium'
   spec.dependency   'libzmq', '4.2.3'
